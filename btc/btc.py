@@ -71,12 +71,12 @@ try:
    UravxBuCwNMpYWTzKhcd=UravxBuCwNMpYWTzKhcn.status_code
    UravxBuCwNMpYWTzKhcG=UravxBuCwNMpYWTzKhcn.text
    return[UravxBuCwNMpYWTzKhcd,UravxBuCwNMpYWTzKhcG]
-  except UravxBuCwNMpYWTzKhPi.
+  except UravxBuCwNMpYWTzKhPi
 
 
 
 
-   UravxBuCwNMpYWTzKhRA(1)
+
  def UravxBuCwNMpYWTzKhPA(i):
   for x in UravxBuCwNMpYWTzKhRm(0,i+1):
    UravxBuCwNMpYWTzKhPf.write('[%s] Waiting %s seconds! %d\r'%(UravxBuCwNMpYWTzKhPQ().strftime("%H:%M:%S"),i,x))
