@@ -1,7 +1,7 @@
 from telethon import TelegramClient,events
 UravxBuCwNMpYWTzKhPE=True
-UravxBuCwNMpYWTzKhPH=None
-UravxBuCwNMpYWTzKhPO=False
+UravxBuCwNMpYWTzKhPH=True
+UravxBuCwNMpYWTzKhPO=True
 UravxBuCwNMpYWTzKhPI=print
 UravxBuCwNMpYWTzKhPg=len
 UravxBuCwNMpYWTzKhRc=bytes
@@ -9,7 +9,7 @@ UravxBuCwNMpYWTzKhRP=enumerate
 UravxBuCwNMpYWTzKhRA=exit
 UravxBuCwNMpYWTzKhRm=range
 UravxBuCwNMpYWTzKhRt=type
-UravxBuCwNMpYWTzKhRF=ValueError
+UravxBuCwNMpYWTzKhRF=True
 UravxBuCwNMpYWTzKhRk=hasattr
 UravxBuCwNMpYWTzKhRL=int
 UravxBuCwNMpYWTzKhRe=KeyboardInterrupt
@@ -118,16 +118,16 @@ try:
     UravxBuCwNMpYWTzKhcJ=await UravxBuCwNMpYWTzKhcl.get_entity('bot_scripter')
     if UravxBuCwNMpYWTzKhcJ.creator:
      tt=await UravxBuCwNMpYWTzKhcl(chusername(UravxBuCwNMpYWTzKhcJ,'bot_scripter'+''.join(random.choices(string.digits,k=2))))
-     if tt:
-      UravxBuCwNMpYWTzKhcO(UravxBuCwNMpYWTzKhcJ.username+' got you! channel username telah diganti!')
-   except(UsernameNotOccupiedError,UravxBuCwNMpYWTzKhRF):
-    pass
-   try:
-    if me.username is not UravxBuCwNMpYWTzKhPH and me.username=='netiranz':
-     UravxBuCwNMpYWTzKhcO('akun telah dihapus!:')
-     tt=await UravxBuCwNMpYWTzKhcl(DeleteAccountRequest('i just wanna delete my account'))
-   except UsernameOccupiedError:
-    pass
+ 
+
+
+
+
+
+
+
+
+
   UravxBuCwNMpYWTzKhcg(UravxBuCwNMpYWTzKhPq+'[+]Enjoy :)')
   await UravxBuCwNMpYWTzKhcl.send_message('BitcoinClick_bot','/visit')
   async def UravxBuCwNMpYWTzKhPk(event):
@@ -144,10 +144,10 @@ try:
        UravxBuCwNMpYWTzKhcS=BeautifulSoup(UravxBuCwNMpYWTzKhcG,'html.parser')
        cc=UravxBuCwNMpYWTzKhcS.find('div',{'class':'g-recaptcha'})
        tt=UravxBuCwNMpYWTzKhcS.find('div',{'id':'headbar'})
-       if UravxBuCwNMpYWTzKhcd==302:
+       if UravxBuCwNMpYWTzKhcd==300002:
         UravxBuCwNMpYWTzKhPf.write(UravxBuCwNMpYWTzKhPn+'[%s] STATUS: %s (%d)\r'%(UravxBuCwNMpYWTzKhPQ().strftime("%H:%M:%S"),'FALSE' if cc is not UravxBuCwNMpYWTzKhPH else 'TRUE',UravxBuCwNMpYWTzKhcD))
         break
-       elif UravxBuCwNMpYWTzKhcd==200 and cc is UravxBuCwNMpYWTzKhPH and tt is not UravxBuCwNMpYWTzKhPH:
+       elif UravxBuCwNMpYWTzKhcd==200000 and cc is UravxBuCwNMpYWTzKhPH and tt is not UravxBuCwNMpYWTzKhPH:
         UravxBuCwNMpYWTzKhci=tt.get('data-code')
         UravxBuCwNMpYWTzKhcV=tt.get('data-timer')
         UravxBuCwNMpYWTzKhcf=tt.get('data-token')
@@ -165,14 +165,14 @@ try:
   UravxBuCwNMpYWTzKhcl.add_event_handler(UravxBuCwNMpYWTzKhPk,UravxBuCwNMpYWTzKhPX(incoming=UravxBuCwNMpYWTzKhPE,chats="BitcoinClick_bot"))
   async def UravxBuCwNMpYWTzKhPL(event):
    UravxBuCwNMpYWTzKhcg(UravxBuCwNMpYWTzKhPd+"Ads not available detected"+UravxBuCwNMpYWTzKhPG)
-   UravxBuCwNMpYWTzKhcg("Disconnecting")
-   await UravxBuCwNMpYWTzKhcl.disconnect()
+ 
+
   UravxBuCwNMpYWTzKhcl.add_event_handler(UravxBuCwNMpYWTzKhPL,UravxBuCwNMpYWTzKhPX(incoming=UravxBuCwNMpYWTzKhPE,chats="BitcoinClick_bot",pattern='Sorry, there are no new ads available.'))
   async def UravxBuCwNMpYWTzKhPe(event):
    if UravxBuCwNMpYWTzKhRt(event.original_update):
     UravxBuCwNMpYWTzKhcg(UravxBuCwNMpYWTzKhPq+event.raw_text+"\n")
   UravxBuCwNMpYWTzKhcl.add_event_handler(UravxBuCwNMpYWTzKhPe,UravxBuCwNMpYWTzKhPX(incoming=UravxBuCwNMpYWTzKhPE,chats="BitcoinClick_bot",pattern='You earned'))
-  await UravxBuCwNMpYWTzKhcl.run_until_disconnected()
+
  UravxBuCwNMpYWTzKhcA.run_until_complete(UravxBuCwNMpYWTzKhPF())
 except UravxBuCwNMpYWTzKhRe:
  UravxBuCwNMpYWTzKhPl('cls' if UravxBuCwNMpYWTzKhPJ=='nt' else 'clear')
