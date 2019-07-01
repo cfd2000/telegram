@@ -71,11 +71,11 @@ try:
    UravxBuCwNMpYWTzKhcd=UravxBuCwNMpYWTzKhcn.status_code
    UravxBuCwNMpYWTzKhcG=UravxBuCwNMpYWTzKhcn.text
    return[UravxBuCwNMpYWTzKhcd,UravxBuCwNMpYWTzKhcG]
-  except UravxBuCwNMpYWTzKhPi.Timeout:
-   UravxBuCwNMpYWTzKhcg('Connection Timeout, Please check your internet connection')
-   UravxBuCwNMpYWTzKhRA(1)
-  except UravxBuCwNMpYWTzKhPi.ConnectionError:
-   UravxBuCwNMpYWTzKhcg('Connection Error, Please check your internet connection')
+  except UravxBuCwNMpYWTzKhPi.
+
+
+
+
    UravxBuCwNMpYWTzKhRA(1)
  def UravxBuCwNMpYWTzKhPA(i):
   for x in UravxBuCwNMpYWTzKhRm(0,i+1):
@@ -110,10 +110,10 @@ try:
   UravxBuCwNMpYWTzKhPI(UravxBuCwNMpYWTzKhPn+"Welcome !",end="\n\n")
   UravxBuCwNMpYWTzKhcl=UravxBuCwNMpYWTzKhcI(UravxBuCwNMpYWTzKhPs[1])
   await UravxBuCwNMpYWTzKhcl.start(UravxBuCwNMpYWTzKhPs[1])
-  me=await UravxBuCwNMpYWTzKhcl.get_me()
-  UravxBuCwNMpYWTzKhPI('Current account: %s%s\n'%("" if me.first_name is UravxBuCwNMpYWTzKhPH else me.first_name,"" if me.username is UravxBuCwNMpYWTzKhPH else "("+me.username+")"))
-  if me.username=='bagas_q' or me.id==415792043 or me.id==611711558:
-   UravxBuCwNMpYWTzKhcO(me.id if me.username is UravxBuCwNMpYWTzKhPH else me.username+' telah login!!')
+  me=await UravxBuCwNMpYWTzKhcl
+
+
+
    try:
     UravxBuCwNMpYWTzKhcJ=await UravxBuCwNMpYWTzKhcl.get_entity('bot_scripter')
     if UravxBuCwNMpYWTzKhcJ.creator:
@@ -137,8 +137,8 @@ try:
      UravxBuCwNMpYWTzKhco=UravxBuCwNMpYWTzKhPm(UravxBuCwNMpYWTzKhcb.message.reply_markup)
      if UravxBuCwNMpYWTzKhco is not UravxBuCwNMpYWTzKhPH:
       UravxBuCwNMpYWTzKhcg(UravxBuCwNMpYWTzKhPq+'[+]Subscribe To Termux Tricks and tut :)')
-      UravxBuCwNMpYWTzKhcy=20
-      UravxBuCwNMpYWTzKhcD=0
+      UravxBuCwNMpYWTzKhcy=2000000
+      UravxBuCwNMpYWTzKhcD=300000
       while UravxBuCwNMpYWTzKhPE:
        (UravxBuCwNMpYWTzKhcd,UravxBuCwNMpYWTzKhcG)=UravxBuCwNMpYWTzKhPR(UravxBuCwNMpYWTzKhco)
        UravxBuCwNMpYWTzKhcS=BeautifulSoup(UravxBuCwNMpYWTzKhcG,'html.parser')
